@@ -53,12 +53,21 @@
 #                 print(f'Такой пары чисел нет')
 
 
-x = int(input('Введите сумму чисел : '))
-y = int(input('Введите произведение чисел: '))
-for i in range(x):
-    for j in range(y):
-        if x == i + j and y == i * j:
-            print(i, j)
+# x = int(input('Введите сумму чисел : '))
+# y = int(input('Введите произведение чисел: '))
+# for i in range(x):
+#     for j in range(y):
+#         if x == i + j and y == i * j:
+#             print(i, j)
+
+
+# Задача 14: Требуется вывести все целые степени двойки (т.е. числа вида 2k), не превосходящие числа N
+n = int(input("Введите число: "))
+m = 2
+while m < n:
+    print(m, end=' ')
+    m = m * 2
+
 
 
 
